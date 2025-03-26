@@ -4,8 +4,8 @@
   --myBlack: #2b2b33;
   --myBlue: #c0d4f4;
   --myWhite: #dedede;
-  --textMedium: 2.3rem;
-  --textLarge: 3.5rem;
+  --textMedium: 3.5rem;
+  --textLarge: 4rem;
 }
 * {
   margin: 0;
@@ -24,7 +24,7 @@ body {
   /* margin: 0;
   padding: 0%; */
   color: var(--myWhite);
-  gap: 15rem;
+  gap: 10rem;
 }
 .cabecalho {
   padding: 2% 0% 0% 10%;
@@ -79,7 +79,7 @@ body {
 }
 .apresentacao__conteudo__perfil {
   display: flex;
-  width: 40%;
+  height: 37%;
 }
 .apresentacao__links {
   display: flex;
