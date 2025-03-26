@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --myBlack: #2b2b33;
+  --myBlue: #c0d4f4;
+  --myWhite: #dedede;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #2b2b33;
+  color: var(--myWhite);
+}
+.cabecalho {
+  padding: 2% 0% 0% 20%;
+}
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+.cabecalho__menu__link {
+  color: var(--myBlue);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.cabecalho__menu__link:hover {
+  color: var(--myWhite);
+}
+
+.apresentacao {
+  padding: 10% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.apresentacao__conteudo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.apresentacao__conteudo__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+.apresentacao__conteudo__titulo__destacar {
+  color: var(--myBlue);
+  text-align: justify;
+}
+.apresentacao__conteudo__texto {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+.apresentacao__conteudo__perfil {
+  display: flex;
+  width: 40%;
+}
+.apresentacao__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+.apresentacao__links__contatos {
+  display: flex;
+  gap: 1em;
+  font-family: poppins;
+  font-weight: 500;
+}
+.apresentacao__links__link {
+  /* background-color: #c0d4f4; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--myBlack);
+  width: 300px;
+  text-align: center;
+  border-radius: 16px;
+  border: 2px solid var(--myBlue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  padding: 15px 0;
+  text-decoration: none;
+  color: var(--myWhite);
+  font-weight: semibold;
+}
+.apresentacao__links__link:hover {
+  background-color: black;
+  color: var(--myBlue);
+}
+.apresentacao__links__link__botao {
+  width: 30px;
+  gap: 1em;
+}
+.rodape {
+  padding: 20px;
+  background-color: var(--myBlue);
+  color: var(--myBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  font-size: large;
+  font-weight: 500;
+  border: none;
+}
