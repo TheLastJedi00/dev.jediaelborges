@@ -156,7 +156,6 @@ body {
   width: 100%;
 }
 
-
 @media (max-aspect-ratio: 1/1) {
   :root {
     --textMedium: 1rem;
