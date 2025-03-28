@@ -55,7 +55,7 @@ body {
 }
 
 .apresentacao__conteudo {
-  width: 100vh;
+  width: 100vw;
   display: flex;
   align-items: left;
   flex-direction: column;
@@ -109,7 +109,7 @@ body {
   bottom: 0;
 }
 
-.rodape__links {
+.rodape__contatos {
   display: flex;
   flex-direction: column;
   font-size: var(--textMedium);
@@ -117,13 +117,22 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.rodape__links__contatos {
+.rodape__contatos__texto {
   display: flex;
   gap: 1rem;
   font-family: poppins;
   font-weight: 500;
   font-size: var(--textLarge);
+  padding-top: 1.5%;
 }
+  .rodape__links{
+    display: flex;
+    flex-direction: row;
+    font-size: var(--textMedium);
+    gap: 7vw;
+    align-items: center;
+    justify-content: space-between;
+  }
 .rodape__links__link {
   display: flex;
   align-items: center;
@@ -135,11 +144,11 @@ body {
   border: 5px solid var(--myWhite);
   font-family: "Poppins", sans-serif;
   font-size: var(--textMedium);
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 3vw;
   text-decoration: none;
   color: var(--myWhite);
   font-weight: semibold;
-  gap: 1.4rem;
+  gap: 0.5rem;
 }
 .rodape__links__link:hover {
   background-color: black;
