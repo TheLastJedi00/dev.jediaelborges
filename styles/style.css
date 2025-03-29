@@ -260,7 +260,7 @@ body {
   body {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2.5rem;
     height: 100vh;
   }
   .cabecalho {
@@ -275,7 +275,7 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height:max-content ;
     padding: 0% var(--margin) 0% var(--margin); 
   }
 
@@ -289,6 +289,12 @@ body {
   }
   .apresentacao__conteudo__titulo{
     padding: 0% 0% 0% 0%;
+  }
+  .apresentacao__conteudo__perfil {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 19%;
   }
   .rodape__links__link{
     display: flex;
