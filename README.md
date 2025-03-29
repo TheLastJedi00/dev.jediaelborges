@@ -1,2 +1,3 @@
 #Portifólio
-- Correção da página About Me quando em modo paisagem em dispositivos móveis
+- Texto Sobre Mim em fase de correção
+- Página Currículo para informações profissionais e acadêmicas
