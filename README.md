@@ -1,4 +1,2 @@
 #Portifólio
-- Adicionado README.md
-- Foto de perfil com bordas arredondadas
-- Botão com link para canal do youtube
+- Correção da página About Me quando em modo paisagem em dispositivos móveis
