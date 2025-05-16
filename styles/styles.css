@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  --my-blue: #59b5e0;
+  --my-red: #e45b6d;
+  --my-green: #76e4cc;
+  --background: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: var(--background);
+  color: white;
+}
+.container-logotype {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30dvh;
+}
+.logotype {
+  height: 75%;
+}
+.container-introduction {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: url(/assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70vh;
+}
+.introduction-text {
+  height: var(--background);
+  width: 58%;
+  padding: 1.8% 0 1.8% 12%;
+  text-align: left;
+  font-size: 3.2em;
+}
+.strong-green {
+  color: var(--my-green);
+}
+.strong-red {
+  color: var(--my-red);
+}
+.strong-blue {
+  color: var(--my-blue);
+}
+
+.container-frameworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+  font-size: 2em;
+  height: 75vh;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.div-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card,
+swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 12em;
+  width: 12em;
+  border: var(--my-red) solid 7px;
+  border-radius: 1em;
+  background-color: black;
+  padding: 0.8em 0.5em;
+}
+
+.card:hover {
+  color: var(--my-green);
+  border: var(--my-blue) solid 10px;
+  height: 13em;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+  border-radius: 1.2em;
+}
+.card-img {
+  width: 50%;
+}
+.card-title {
+  font-size: 0.8em;
+}
+.card-text {
+  font-size: 0.5em;
+  text-align: justify;
+  height: 35%;
+  width: 90%;
+}
+
+/* .swiper-pagination {
+    background-color: #59B5E0;
+} */
+
+.swiper-pagination-bullet {
+  background: var(--my-blue);
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--my-green);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.container-responsiveness {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height: 70vh;
+  background-image: url(/assets/Background-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2em 5em 6em 2em;
+  gap: 2em;
+}
+
+.responsiveness-title {
+  font-size: 3em;
+}
+
+.responsiveness-text {
+  font-size: 1.8em;
+  text-align: justify;
+  width: 45%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 10em;
+  width: 100%;
+  height: 40vh;
+  border-top: var(--my-blue) solid 10px;
+}
+
+.footer-title {
+  font-size: 2.5em;
+  color: var(--my-green);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    border: var(--my-red) solid 2px;
+    padding: 0.5em 1em;
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.links:hover {
+    border: var(--my-blue) solid 2px;
+    transition: all 0.1s ease-in-out;
+    font-weight: 500;
+    border-radius: 1.2em;
+    color: var(--my-green);
+    font-size: 1.1em;
+    width: 110%;
+}
+
+.footer-logo {
+    width: 100px;
+}
