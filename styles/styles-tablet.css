@@ -26,7 +26,7 @@
   }
   .card,
   swiper-slide {
-    height: 70%;
+    height: 80%;
     border: var(--my-red) solid 2px;
     border-radius: 0.8em;
     padding: 0.5em 0.1em;
@@ -62,9 +62,9 @@
   }
 
   .container-responsiveness {
-    justify-content: space-between;
-    padding: 5.5em 4em;
-    gap: 0;
+    justify-content: start;
+    padding: 4.5em 4em;
+    gap: 0.5em;
   }
 
   .responsiveness-title {
