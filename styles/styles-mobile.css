@@ -17,7 +17,7 @@
   .container-frameworks {
     padding: 1em 1em;
     font-size: 1em;
-    height: 55dvh;
+    height: 30em;
     text-align: center;
   }
 
@@ -86,7 +86,7 @@
     padding: 1em 5em;
     gap: 0;
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     border-top: 3px solid var(--my-blue);
   }
 
@@ -123,6 +123,6 @@
   }
 
   .footer-logo {
-    width: 100px;
+    width: 50px;
   }
 }
