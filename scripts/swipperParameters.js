@@ -1,10 +1,12 @@
 let ViewSlides = 5;
+let viewWidth = window.innerWidth;
 
-if (window.innerWidth < 768) {
+if (viewWidth < 768) {
   ViewSlides = 2;
 } else {
   ViewSlides = 5;
 }
+
 
 const swiper = new Swiper(".swiper", {
   // Optional parameters

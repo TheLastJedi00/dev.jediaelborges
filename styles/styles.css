@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30dvh;
+  height: 10em;
 }
 .logotype {
   height: 75%;
@@ -32,10 +32,10 @@ body {
   background-image: url(../assets/Background.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 70vh;
+  width: 100%;
+  aspect-ratio: 61/20;
 }
 .introduction-text {
-  height: var(--background);
   width: 58%;
   padding: 1.8% 0 1.8% 12%;
   text-align: left;
@@ -58,7 +58,9 @@ body {
   align-items: center;
   padding: 2em 0;
   font-size: 2em;
-  height: 75vh;
+  height: 21em;
+  min-width: 41em;
+  max-width: 100%;
 }
 
 .swiper {
@@ -127,7 +129,8 @@ swiper-slide {
   justify-content: center;
   align-items: end;
   flex-direction: column;
-  height: 70vh;
+  aspect-ratio: 61/20;
+  width: 100%;
   background-image: url(../assets/Background-2.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -152,7 +155,7 @@ swiper-slide {
   align-items: center;
   padding: 2em 10em;
   width: 100%;
-  height: 40vh;
+  aspect-ratio: 5/1;
   border-top: var(--my-blue) solid 10px;
 }
 
@@ -162,35 +165,35 @@ swiper-slide {
 }
 
 .footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    font-size: 1.5em;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.5em;
+  width: 100%;
 }
 
 .links {
-    color: white;
-    text-decoration: none;
-    border: var(--my-red) solid 2px;
-    padding: 0.5em 1em;
-    width: 100%;
-    text-align: center;
-    border-radius: 1em;
+  color: white;
+  text-decoration: none;
+  border: var(--my-red) solid 2px;
+  padding: 0.5em 1em;
+  width: 100%;
+  text-align: center;
+  border-radius: 1em;
 }
 
 .links:hover {
-    border: var(--my-blue) solid 2px;
-    transition: all 0.1s ease-in-out;
-    font-weight: 500;
-    border-radius: 1.2em;
-    color: var(--my-green);
-    font-size: 1.1em;
-    width: 110%;
+  border: var(--my-blue) solid 2px;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+  border-radius: 1.2em;
+  color: var(--my-green);
+  font-size: 1.1em;
+  width: 110%;
 }
 
 .footer-logo {
-    width: 70px;
+  width: 70px;
 }
