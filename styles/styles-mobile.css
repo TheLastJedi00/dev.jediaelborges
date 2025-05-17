@@ -8,16 +8,16 @@
     height: 75%;
   }
   .container-introduction {
-    height: 20vh;
+    height: 25vh;
   }
   .introduction-text {
     width: 55%;
     font-size: 1em;
   }
   .container-frameworks {
-    padding: 2em 1em;
+    padding: 1em 1em;
     font-size: 1em;
-    height: 32em;
+    height: 55dvh;
     text-align: center;
   }
 
@@ -48,7 +48,7 @@
   .card-text {
     font-size: 0.7em;
     text-align: justify;
-    height: 35%;
+    height: 40%;
     width: 90%;
   }
   .swiper-pagination-bullet {
