@@ -8,7 +8,11 @@
     height: 75%;
   }
   .container-introduction {
-    height: 30vh;
+    height: 19vh;
+    padding: 0 0 0 0;
+  }
+  .introduction-text {
+    padding: 0 0 0 11.5vw;
   }
   .introduction-text {
     width: 55%;
@@ -85,10 +89,10 @@
   }
 
   .footer {
-    padding: 1em 5em;
-    gap: 0;
+    padding: 0.5em 5em;
+    gap: 0.5em;
     width: 100%;
-    height: 45vh;
+    height: auto;
     border-top: 3px solid var(--my-blue);
   }
 
@@ -105,10 +109,11 @@
   }
 
   .links {
+    justify-content: center;
     color: white;
     text-decoration: none;
     border: var(--my-red) solid 2px;
-    padding: 0.5em 1em;
+    padding: 0.5em 22%;
     width: 100%;
     text-align: center;
     border-radius: 1em;
@@ -122,6 +127,9 @@
     color: var(--my-green);
     font-size: 1.1em;
     width: 110%;
+  }
+  .links-logo {
+    height: 20px;
   }
 
   .footer-logo {
