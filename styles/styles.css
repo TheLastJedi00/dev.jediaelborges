@@ -175,10 +175,14 @@ swiper-slide {
 }
 
 .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   text-decoration: none;
   border: var(--my-red) solid 2px;
-  padding: 0.5em 1em;
+  gap: 0.7em;
+  padding: 0.5em;
   width: 100%;
   text-align: center;
   border-radius: 1em;
@@ -192,6 +196,10 @@ swiper-slide {
   color: var(--my-green);
   font-size: 1.1em;
   width: 110%;
+}
+
+.links-logo {
+  height: 35px;
 }
 
 .footer-logo {
