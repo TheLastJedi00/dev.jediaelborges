@@ -8,20 +8,20 @@
     height: 75%;
   }
   .container-introduction {
-    height: 19vh;
-    padding: 0 0 0 0;
+    height: 21vh;
+    padding: 0 0;
   }
   .introduction-text {
     padding: 0 0 0 11.5vw;
   }
   .introduction-text {
-    width: 55%;
+    width: 57%;
     font-size: 1em;
   }
   .container-frameworks {
-    padding: 1em 1em;
-    font-size: 1em;
-    height: 30em;
+    padding: 1.7em 1em;
+    font-size: 0.8em;
+    height: 27em;
     min-width: 0;
     max-width: 100%;
     text-align: center;
