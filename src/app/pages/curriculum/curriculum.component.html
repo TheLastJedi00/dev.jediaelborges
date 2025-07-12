@@ -1,0 +1,70 @@
+<app-header></app-header>
+<main>
+  <img class="me" src="../../../assets/me.png" alt="Jediael Leno Borges" />
+  <h1>Jediael Leno Borges</h1>
+
+  <section>
+    <img src="../../../assets/Carreer.jpg" alt="" />
+    <div>
+      <h3>Meus objetivos em um empresa</h3>
+      <p>
+        Profissional focado no desenvolvimento de uma carreira sólida, com
+        grande objetividade e disciplina nos estudos. Busco ativamente a
+        oportunidade de colaborar em equipes com profissionais mais experientes
+        para absorver conhecimento prático, acelerar meu crescimento e, assim,
+        contribuir de forma cada vez mais significativa para os resultados da
+        empresa.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h3>Última experiência</h3>
+      <h5>Desenvolvedor Fullstack Freelancer</h5>
+      <p>
+        Atualmente, sou responsável pelo desenvolvimento de ponta a ponta de um
+        sistema de agendamentos, aplicando a stack Spring/Angular para criar
+        funcionalidades como painel administrativo, gestão de horários e portal
+        do cliente.
+      </p>
+    </div>
+    <img src="../../../assets/Experience.jpg" alt="" />
+  </section>
+  <section>
+    <img src="../../../assets/Education.jpg" alt="" />
+    <div>
+      <h3>Educação</h3>
+      <h5>Superior em Análise e Desenvolvimento de Sistemas</h5>
+      <p>2025-2027</p>
+      <h5>Licenciatura em Matemática</h5>
+      <p>2021-2023 (4 Semestres)</p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h3>Skills</h3>
+      <div class="skills">
+        <div>
+          <h5>Hard Skils</h5>
+          <ul>
+            <li *ngFor="let skills of hardSkills">{{ skills }}</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Soft Skils</h5>
+          <ul>
+            <li *ngFor="let skills of softSkills">{{ skills }}</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Skills em Progresso</h5>
+          <ul>
+            <li *ngFor="let skills of progressSkills">{{ skills }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <img src="../../../assets/Skills.jpg" alt="" />
+  </section>
+</main>
+<app-footer></app-footer>
