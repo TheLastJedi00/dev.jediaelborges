@@ -29,6 +29,7 @@ header {
     width: 20em;
     padding: 1em 2em;
     border-radius: 40px;
+    border-bottom: rgb(63, 63, 63) 0.5px solid;
 
     img {
       display: block;
@@ -82,5 +83,24 @@ header {
     font-size: 1.2em;
     height: 1em;
     width: 1.4em;
+  }
+}
+
+@media (max-width: 768px) {
+
+  header {
+    height: 5em;
+    width: 100vw;
+    padding: 5px 5px;
+
+    .home-button {
+      background-color: black;
+      width: 18em;
+      padding: 1em 1em;
+    }
+
+    .home-button:hover {
+      background-color: black;
+    }
   }
 }

@@ -9,5 +9,6 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
+whatsapp: any;
 
 }
