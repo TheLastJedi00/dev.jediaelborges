@@ -105,18 +105,20 @@ main {
       justify-content: start;
       width: 95vw;
       height: fit-content;
-      padding: 0 20px;
       padding-bottom: 20px;
 
       img {
         width: 100%;
+        border-radius: 20px 20px 0 0;
       }
       div {
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        padding: 0 15px;
 
         p {
             margin: 0;
@@ -129,19 +131,21 @@ main {
         align-items: start;
         justify-content: space-evenly;
         width: 100%;
+        padding: 0;
 
         div {
           width: 100%;
           padding: 0;
 
           ul {
-            padding: 0 5px;
+            padding: 0;
             list-style: none;
-
+            grid-template-columns: repeat(3, 1fr);
+            
             li {
               text-align: center;
               padding: 5px 2px;
-              border-bottom: #e45b6d47 0.2px solid;
+              border-bottom: #e45b6d47 0.5px solid;
               border-radius: 20px;
             }
           }
