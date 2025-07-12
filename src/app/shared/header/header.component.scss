@@ -57,7 +57,7 @@ header {
     transition: 0.05s;
   }
   .home-button:active {
-    background-color: rgb(50, 50, 50);
+    background-color: #ff77894f;
     transform: scale(0.99);
     transition: 0.1s;
   }
@@ -87,7 +87,6 @@ header {
 }
 
 @media (max-width: 768px) {
-
   header {
     height: 5em;
     width: 100vw;
