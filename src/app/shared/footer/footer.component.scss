@@ -34,21 +34,23 @@ footer {
   footer {
     justify-content: center;
     padding: 10px 15px;
+    padding-bottom: 1.5em;
 
     section {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
       width: 100%;
 
       img {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
       }
       h2 {
         color: white;
         margin: 0;
+        font-size: 1.2em;
       }
       div {
         display: flex;
