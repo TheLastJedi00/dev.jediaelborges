@@ -1,0 +1,22 @@
+<header>
+  <button matButton class="home-button" routerLink="/">
+    <img src="../../../assets/Logo-no-bg.svg" alt="Leno Borges Web Developer" />
+    <div>
+      <h3>J. Borges Leno</h3>
+      <p>Web Developer</p>
+    </div>
+  </button>
+  <button
+    class="menu-button"
+    mat-button
+    [matMenuTriggerFor]="beforeMenu"
+    color="accent"
+  >
+    <mat-icon class="material-icons-rounded">menu</mat-icon>
+  </button>
+  <mat-menu class="menu" #beforeMenu="matMenu" xPosition="before">
+    <button mat-menu-item routerLink="/"><mat-icon>home</mat-icon>Home</button>
+    <button mat-menu-item routerLink="/about"><mat-icon>person</mat-icon>Sobre Mim</button>
+    <button mat-menu-item><mat-icon>work</mat-icon>Currículo</button>
+  </mat-menu>
+</header>

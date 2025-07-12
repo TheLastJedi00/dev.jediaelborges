@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    padding: 20px 150px;
+    background-color: black;
+    border-top: rgb(40, 40, 40) 1px solid;
+
+    section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 70vw;
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        h2{
+            color: white;
+            margin: 0;
+        } 
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+    }
+}
