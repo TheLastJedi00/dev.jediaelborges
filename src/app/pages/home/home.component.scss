@@ -7,7 +7,6 @@ main {
   padding: 20px;
   background-color: black;
   gap: 25px;
-  padding-top: 6em;
 
   section {
     box-sizing: border-box;
@@ -70,7 +69,7 @@ main {
     flex-direction: column;
     padding: 10px;
     gap: 15px;
-    padding-top: 5.5em;
+    padding-top: 0.5em;
 
     .reverse {
       flex-direction: column-reverse;

@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from '../../shared/header/header.component';
 import { FooterComponent } from '../../shared/footer/footer.component';
 
 @Component({
   selector: 'app-curriculum',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, CommonModule],
+  imports: [ FooterComponent, CommonModule],
   templateUrl: './curriculum.component.html',
   styleUrl: './curriculum.component.scss',
 })

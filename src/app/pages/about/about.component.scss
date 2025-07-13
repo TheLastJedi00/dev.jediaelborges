@@ -5,7 +5,7 @@ main {
   justify-content: space-evenly;
   min-height: 80vh;
   width: 100%;
-  padding-top: 7em;
+  padding-top: 0.5em;
   background-color: black;
   color: white;
   padding-bottom: 2em;
@@ -59,7 +59,7 @@ main {
   main {
     min-height: 80vh;
     width: 100%;
-    padding-top: 5em;
+    padding-top: 0;
 
     .first-section {
       flex-direction: column;

@@ -1,22 +1,46 @@
 <header>
-  <button matButton class="home-button" routerLink="/">
-    <img src="../../../assets/Logo-no-bg.svg" alt="Leno Borges Web Developer" />
-    <div>
-      <h3>J. Borges Leno</h3>
-      <p>Web Developer</p>
-    </div>
-  </button>
-  <button
-    class="menu-button"
-    mat-button
-    [matMenuTriggerFor]="beforeMenu"
-    color="accent"
-  >
-    <mat-icon class="material-icons-rounded">menu</mat-icon>
-  </button>
-  <mat-menu class="menu" #beforeMenu="matMenu" xPosition="before">
-    <button mat-menu-item routerLink="/"><mat-icon>home</mat-icon>Home</button>
-    <button mat-menu-item routerLink="/about"><mat-icon>person</mat-icon>Sobre Mim</button>
-    <button mat-menu-item routerLink="/curriculum"><mat-icon>work</mat-icon>Currículo</button>
-  </mat-menu>
+  <section>
+    <button matButton class="home-button" routerLink="/">
+      <img
+        src="../../../assets/Logo-no-bg.svg"
+        alt="Leno Borges Web Developer"
+      />
+      <div>
+        <h3>J. Borges Leno</h3>
+        <p>Web Developer</p>
+      </div>
+    </button>
+    <!-- <button
+      class="menu-button"
+      mat-button
+      [matMenuTriggerFor]="beforeMenu"
+      color="accent"
+    >
+      <mat-icon class="material-icons-rounded">menu</mat-icon>
+    </button>
+    <mat-menu class="menu" #beforeMenu="matMenu" xPosition="before">
+      <button mat-menu-item routerLink="/">
+        <mat-icon>home</mat-icon>Home
+      </button>
+      <button mat-menu-item routerLink="/about">
+        <mat-icon>person</mat-icon>Sobre Mim
+      </button>
+      <button mat-menu-item routerLink="/curriculum">
+        <mat-icon>work</mat-icon>Currículo
+      </button>
+    </mat-menu> -->
+  </section>
+  <div class="tabs">
+    <mat-tab-group dynamicHeight color="accent">
+      <mat-tab label="Início">
+        <div><app-home></app-home></div>
+      </mat-tab>
+      <mat-tab label="Sobre Mim">
+        <div><app-about></app-about></div>
+      </mat-tab>
+      <mat-tab label="Currículo">
+        <div><app-curriculum></app-curriculum></div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
 </header>
