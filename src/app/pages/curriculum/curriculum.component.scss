@@ -38,33 +38,60 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80vw;
     text-align: justify;
-    height: 300px;
+    height: fit-content;
     box-shadow: 0px 2px 10px 1px rgb(120, 120, 120);
     border-radius: 20px;
 
+    p {
+      font-size: 1.25vw;
+    }
     img {
       height: 100%;
     }
     div {
+      box-sizing: border-box;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
       width: 60%;
+      padding: 10px 7vw;
     }
 
-    .skills {
-      display: flex;
-      flex-direction: row;
-      align-items: start;
-      justify-content: space-evenly;
-      width: 100%;
+    img {
+      height: 400px;
+    }
+    .reverse-img {
+      border-radius: 0 20px 20px 0;
+    }
 
-      div {
+    .skills-tables {
+      padding: 0;
+      padding-left: 7vw;
+
+      h3 {
+        margin-top: 7px;
+      }
+      .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
         width: 100%;
+        padding: 0;
+
+        div {
+          width: 100%;
+          padding: 0;
+
+          li {
+            text-align: left;
+            font-size: 1.25vw;
+          }
+        }
       }
     }
   }
@@ -107,10 +134,11 @@ main {
       height: fit-content;
       padding-bottom: 20px;
 
-      img {
+      img, .reverse-img{
         width: 100%;
         border-radius: 20px 20px 0 0;
       }
+
       div {
         box-sizing: border-box;
         display: flex;
@@ -120,33 +148,41 @@ main {
         width: 100%;
         padding: 0 15px;
 
+        h5 {
+          font-size: 1.1em;
+        }
         p {
-            margin: 0;
-          }
+          margin: 0;
+          font-size: 1em;
+        }
       }
 
-      .skills {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        justify-content: space-evenly;
-        width: 100%;
-        padding: 0;
-
-        div {
+      .skills-tables {
+        padding: 0 5px;
+        .skills {
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+          justify-content: space-evenly;
           width: 100%;
           padding: 0;
 
-          ul {
+          div {
+            width: 100%;
             padding: 0;
-            list-style: none;
-            grid-template-columns: repeat(3, 1fr);
-            
-            li {
-              text-align: center;
-              padding: 5px 2px;
-              border-bottom: #e45b6d47 0.5px solid;
-              border-radius: 20px;
+
+            ul {
+              padding: 0;
+              list-style: none;
+              grid-template-columns: repeat(3, 1fr);
+
+              li {
+                text-align: center;
+                padding: 5px 2px;
+                border-bottom: #e45b6d47 0.5px solid;
+                border-radius: 20px;
+                font-size: 1em;
+              }
             }
           }
         }
